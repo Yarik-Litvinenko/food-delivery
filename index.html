@@ -25,61 +25,77 @@
   <body>
     <!-- *header -->
     <header class="header">
-      <a href="./index.html"
-        ><img src="./img/logo.png" alt="food sta logo" width="66" height="52"
-      /></a>
-      <nav>
-        <ul>
-          <li><a href="./index.html" class="header-link">Home</a></li>
-          <li><a href="" class="header-link">About</a></li>
-          <li><a href="" class="header-link">Service</a></li>
-          <li><a href="" class="header-link">Menu</a></li>
-          <li><a href="" class="header-link">Contact</a></li>
-        </ul>
-      </nav>
-      <button type="button" class="header-button">Order Now</button>
+      <div class="container header-container">
+        <a href="./index.html" class="logo"
+          ><img src="./img/logo.png" alt="food sta logo" width="66" height="52"
+        /></a>
+        <nav class="navigation">
+          <ul class="nav-list">
+            <li><a href="./index.html" class="nav-link">Home</a></li>
+            <li><a href="" class="nav-link">About</a></li>
+            <li><a href="" class="nav-link">Service</a></li>
+            <li><a href="" class="nav-link">Menu</a></li>
+            <li><a href="" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+        <button type="button" class="header-button">Order Now</button>
+      </div>
     </header>
     <!-- *main -->
     <main>
       <!-- ^hero-section -->
-      <section>
-        <h1 class="hero-header">Enjoy Your Favorite Food From Anywhere</h1>
-        <p>
-          With just a few clicks, you can have your favorite meals delivered
-          straight to your doorstep, no matter where you are. Order now and
-          enjoy a hassle-free and delicious meal from the comfort of your own
-          home.
-        </p>
-        <button type="button" class="hero-button">Order Now</button>
-        <img src="./img/hero.png" alt="salat" width="528" height="528" />
+      <section class="hero-section">
+        <div class="container hero-container">
+          <div class="hero-wrapper">
+            <h1 class="hero-header">Enjoy Your Favorite Food From Anywhere</h1>
+            <p class="hero-text">
+              With just a few clicks, you can have your favorite meals delivered
+              straight to your doorstep, no matter where you are. Order now and
+              enjoy a hassle-free and delicious meal from the comfort of your
+              own home.
+            </p>
+            <button type="button" class="hero-button">Order Now</button>
+          </div>
+          <img src="./img/hero.png" alt="salat" width="528" height="528" />
+        </div>
       </section>
       <!-- ^feauters-section -->
-      <section>
-        <img src="./img/apple.png" alt="apple" width="396" height="502" />
-        <h2 class="feauters-header">What’s Special About Our Offerings</h2>
-        <p>
-          With our platform, you can browse through a diverse selection of
-          cuisines and local restaurants, and choose from a variety of dishes
-          that cater to your specific taste buds.
-        </p>
-        <ul>
-          <li>
-            <h3 class="feauters-options-header">Fastest Delivery</h3>
-            <p>
-              Our advanced logistics system and dedicated delivery partners
-              ensure that your meals are delivered to you within 30-minutes.
+      <section class="feauters-section">
+        <div class="container feauters-container">
+          <img
+            class="feauters-img"
+            src="./img/apple.png"
+            alt="apple"
+            width="396"
+            height="502"
+          />
+          <div class="feauters-text-block">
+            <h2 class="feauters-header">What’s Special About Our Offerings</h2>
+            <p class="feauters-paragraph">
+              With our platform, you can browse through a diverse selection of
+              cuisines and local restaurants, and choose from a variety of
+              dishes that cater to your specific taste buds.
             </p>
-          </li>
-          <li>
-            <h3 class="feauters-options-header">Easy To Order</h3>
-            <p>
-              You can browse through a wide variety of cuisines and restaurants,
-              select your favorite meals, and place your order in just a few
-              clicks.
-            </p>
-          </li>
-        </ul>
-        <button type="button" class="feauters-button">Order Now</button>
+            <ul class="feauters-second-text-block">
+              <li class="feaut-sectextblock-item">
+                <h3 class="feauters-options-header">Fastest Delivery</h3>
+                <p>
+                  Our advanced logistics system and dedicated delivery partners
+                  ensure that your meals are delivered to you within 30-minutes.
+                </p>
+              </li>
+              <li class="feaut-sectextblock-item">
+                <h3 class="feauters-options-header">Easy To Order</h3>
+                <p>
+                  You can browse through a wide variety of cuisines and
+                  restaurants, select your favorite meals, and place your order
+                  in just a few clicks.
+                </p>
+              </li>
+            </ul>
+            <button type="button" class="feauters-button">Order Now</button>
+          </div>
+        </div>
       </section>
       <!-- ^favorites-section -->
       <section>
@@ -167,20 +183,24 @@
         </ul>
       </section>
       <!-- ^subscribe-section -->
-      <section>
-        <h2 class="subsc-header">Subscribe To Get Special Offers</h2>
-        <p>
-          Order now and receive 10% off your first meal with Enjoy Your Favorite
-          Food From Anywhere.
-        </p>
-        <form>
-          <input
-            type="email"
-            placeholder="Enter your email"
-            class="subsc-input"
-          /><button type="submit" class="subsc-input-btn">Subscribe</button>
-        </form>
-        <img src="./img/banan.png" alt="banan" width="608" height="266" />
+      <section class="sub-section">
+        <div class="container sub-container">
+          <div class="sub-text-block">
+            <h2 class="subsc-header">Subscribe To Get Special Offers</h2>
+            <p class="sub-text">
+              Order now and receive 10% off your first meal with Enjoy Your
+              Favorite Food From Anywhere.
+            </p>
+            <form>
+              <input
+                type="email"
+                placeholder="Enter your email"
+                class="subsc-input"
+              /><button type="submit" class="subsc-input-btn">Subscribe</button>
+            </form>
+          </div>
+          <img src="./img/banan.png" alt="banan" width="608" height="266" />
+        </div>
       </section>
     </main>
     <!-- *footer -->
