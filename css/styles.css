@@ -486,3 +486,53 @@ img {
   visibility: visible;
   pointer-events: auto;
 }
+
+.modal-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.modal-input-wrap {
+  margin-bottom: 24px;
+}
+.label-form {
+  font-weight: 500;
+  line-height: 1.4;
+  font-style: 16px;
+  margin-bottom: 2px;
+  display: block;
+  margin-left: 12px;
+}
+.input-form {
+  border: 1px solid rgba(18, 18, 18, 0.12);
+  border-radius: 30px;
+  width: 100%;
+  height: 48px;
+
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #fff;
+  padding-left: 12px;
+  outline: transparent;
+}
+
+.modal-input-wraper {
+  margin-bottom: 32px;
+}
+
+.modal-btn {
+  border: 2px solid #7eb101;
+  border-radius: 30px;
+  min-width: 106px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  cursor: pointer;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background: #bbf330;
+}
